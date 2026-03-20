@@ -1,0 +1,3 @@
+default:
+	git pull
+	ansible-playbook -i ${COMPONENT}-dev.tek-nik.com, -e ansible_user=ec2-user -e ansible_password=DevOps321 main.yml
